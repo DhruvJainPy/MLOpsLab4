@@ -1,0 +1,47 @@
+[
+    {
+        "model_file": "rf_model_8.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_4.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_5.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_7.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_6.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_2.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_3.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_1.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "model_file": "rf_model_0.pkl",
+        "accuracy": 1.0,
+        "f1_score": 1.0
+    }
+]

@@ -2,31 +2,30 @@ stages:
   preprocess:
     cmd: python src/preprocess.py
     deps:
-      - data/raw.csv
-      - src/preprocess.py
+    - data/raw.csv
+    - src/preprocess.py
     outs:
-      - data/processed/train.csv
-      - data/processed/test.csv
+    - data/processed/train.csv
+    - data/processed/test.csv
 
   train:
     cmd: python src/train.py
     deps:
-      - data/processed/train.csv
-      - src/train.py
-      - params.yaml
+    - data/processed/train.csv
+    - src/train.py
+    - params.yaml
     outs:
-      - models/
+    - models/
 
   evaluate:
     cmd: python src/evaluate.py
     deps:
-      - models/
-      - data/processed/test.csv
-      - src/evaluate.py
-      - params.yaml
+    - data/processed/test.csv
+    - models/
+    - params.yaml
+    - src/evaluate.py
     outs:
-      - experiments/results.json
-
+    - experiments/results.json
     metrics:
-      - metrics.json:
-          cache: false
+    - metrics.json:
+        cache: false
